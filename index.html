@@ -9,6 +9,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <title>Document</title>
+  
 </head>
 
 <body>
@@ -20,23 +21,23 @@
       <div class="login-box__title">login</div>
 
       <div class="login-box__input">
-        <input type="email" required placeholder="" />
-        <label>email</label>
+        <input id="email" type="email" required placeholder="email" />
+        <label for="email">email</label>
         <span class="material-symbols-outlined">mail</span>
       </div>
 
       <div class="login-box__input">
-        <input type="password" required placeholder="" />
-        <label>password</label>
+        <input id="password" type="password" required placeholder="password" autocomplete="none" />
+        <label for="password">password</label>
         <span class="material-symbols-outlined">lock</span>
       </div>
 
       <div class="login-box__remember">
-        <input class="login-box__remember__checkbox" type="checkbox" />
-        <p>Remember Me <a href="#">Forget Password</a></p>
+        <input id="checkbox" class="login-box__remember__checkbox" type="checkbox" />
+        <label for="checkbox">Remember Me <a href="#">Forget Password</a></label>
       </div>
 
-      <button class="login-box__button">log in</button>
+      <button type="submit" class="login-box__button">log in</button>
 
       <div class="login-box__register">
         <p>Don't have a account <a href="#">Register</a></p>
