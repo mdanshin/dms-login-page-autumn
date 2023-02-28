@@ -100,6 +100,11 @@ body {
   outline: none;
 }
 
+.login-box__input svg {
+  width: 25px;
+  fill: var(--text-color);
+}
+
 .login-box__input input::placeholder {
   opacity: 0;
 }
@@ -125,6 +130,18 @@ body {
 .login-box__input input:not(:placeholder-shown)~label,
 .login-box__input input:focus~label {
   top: -5px;
+}
+
+.login-box__remember {
+  display: flex;  
+}
+
+.login-box__remember input {
+  margin: 0 10px 0 0;
+}
+
+.login-box__remember a {
+  margin-left: auto;
 }
 
 .login-box__remember p {
