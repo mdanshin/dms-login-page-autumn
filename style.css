@@ -30,7 +30,7 @@
 
 body {
   background-color: var(--bg-color);
-  background: url(./assets/images/bg.png) no-repeat center;
+  background: url(./assets/images/bg.webp) no-repeat center;
   background-size: cover;
   color: var(--text-color);
 }
