@@ -166,15 +166,15 @@ body {
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: #eee;
+  background-color: rgba(238, 238, 238, .2);
 }
 
 .login-box__remember .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: rgba(238, 238, 238, .42);
 }
 
 .login-box__remember .container input:checked ~ .checkmark {
-  background-color: var(--text-color);
+  background-color: rgba(67, 15, 3, .3);
 }
 
 .login-box__remember .checkmark:after {
